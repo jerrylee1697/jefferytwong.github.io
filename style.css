@@ -4,7 +4,7 @@ body{
   margin: 0 auto 0 auto;  
   width:100%; 
   text-align:center;
-  margin: 20px 0px 20px 0px;   
+  margin: 10px 0px 10px 0px;   
 }
 
 p{
@@ -18,6 +18,11 @@ h1{
   color:#525252;
 }
 
+h2{
+  font-size:0.1em;
+  color:#525252;
+}
+
 .box{
   background:white;
   width:300px;
@@ -28,8 +33,8 @@ h1{
 }
 
 .bigbox{
-	background:white;
-	width: 600px;
+	background:grey;
+	width: 300px;
 	border-radius:6px;
 	margin: 0 auto 0 auto;
 	padding:0px 0px 70px 0px;
@@ -91,7 +96,7 @@ h1{
   margin-bottom:20px;
   margin-left:10px;
   font-weight:800;
-  font-size:0.8em;
+  font-size:0.3em;
 }
 
 #btn2:hover{ 
@@ -101,7 +106,7 @@ background:#3594D2;
 #btn3{
   float:center;
   background:#2ecc71;
-  width:125px;  padding-top:5px;
+  width:225px;  padding-top:5px;
   padding-bottom:5px;
   color:white;
   border-radius:4px;
@@ -111,7 +116,7 @@ background:#3594D2;
   margin-bottom:20px;
   margin:auto;
   font-weight:800;
-  font-size:0.8em;
+  font-size:0.80em;
 }
 
 #btn3:hover{
@@ -120,8 +125,72 @@ background:#3594D2;
 
 .submissionfield { 
 width: 80%; 
-height: 390px; 
+height: 200px; 
 border: 1px 
 solid #999999; 
 padding: 5px; 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("img_snow.jpg"); }
+.img2 { background-image: url("img_girl.jpg"); }
+.img3 { background-image: url("img_lights.jpg"); }
+.img4 { background-image: url("img_nature.jpg"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text2 {
+  background-color: rgb(157,149,149); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 370px;
+  padding: 15px;
+  text-align: center;
 }
